@@ -201,13 +201,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const generatedKeysTitle = document.getElementById('generatedKeysTitle');
     const copyStatus = document.getElementById('copyStatus');
     const generateMoreBtn = document.getElementById('generateMoreBtn');
-    const sourceCode = document.getElementById('sourceCode');
 
     let selectedGame = null;
 
-    sourceCode.addEventListener('click', () => {
-        window.open('https://github.com/ShafiqSadat/HamsterKeyGenWeb', '_blank');
-    });
 
     gameOptions.forEach(option => {
         option.addEventListener('click', () => {
